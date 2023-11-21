@@ -2,13 +2,13 @@
   "name": "sync-information-hooks",
   "version": "1.0.0",
   "description": "Sync information to hooks, like discord",
-  "main": "./bin/index.mjs",
+  "main": "./dist/index.js",
   "type": "module",
   "bin": {
-    "synci": "./bin/index.mjs"
+    "synci": "./dist/synci.js"
   },
   "files": [
-    "bin",
+    "dist",
     "README.md",
     "LICENSE"
   ],
