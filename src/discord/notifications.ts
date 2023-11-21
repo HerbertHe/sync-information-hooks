@@ -1,6 +1,7 @@
 import fetch from "node-fetch"
+import { IMsgJSON } from "../msg-file"
 
-export const updateNotificationsToDiscord = (msg: any) => {
+export const updateNotificationsToDiscord = (msg: IMsgJSON) => {
     const hook = process.env.DISCORD_NOTIFICATIONS_WEBHOOK_URL
 
     if (!hook) return
